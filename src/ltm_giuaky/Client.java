@@ -428,7 +428,17 @@ public class Client extends javax.swing.JFrame {
             }
 
             // gửi filePath cho server
-            String filePath = txt_filePath.getText() + txt_nameFile.getText() + lb_txt.getText();
+            String filePath;
+            String newFileName = "";
+            for (int i = txt_nameFile.getText().length()-4; i < txt_nameFile.getText().length(); i++) {
+                newFileName += txt_nameFile.getText().charAt(i);
+            }
+            System.out.println(newFileName);
+            if(newFileName.equals(".txt")){
+                filePath = txt_filePath.getText() + txt_nameFile.getText();
+            }else{
+                filePath = txt_filePath.getText() + txt_nameFile.getText() + lb_txt.getText();
+            }
             arr = new byte[256];
             arr = filePath.getBytes();
             out = new DatagramPacket(arr, arr.length, ip, port);
