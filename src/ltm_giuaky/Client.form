@@ -302,7 +302,7 @@
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
           <Font name="Times New Roman" size="12" style="1"/>
         </Property>
-        <Property name="text" type="java.lang.String" value="Nh&#x1ead;p &#x111;&#x1b0;&#x1edd;ng d&#x1eab;n file:"/>
+        <Property name="text" type="java.lang.String" value="Ch&#x1ecd;n &#x111;&#x1b0;&#x1edd;ng d&#x1eab;n file:"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JTextField" name="txt_filePath">

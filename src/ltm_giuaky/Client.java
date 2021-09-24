@@ -153,7 +153,7 @@ public class Client extends javax.swing.JFrame {
         jLabel6.setText("Văn bản sau khi được giải mã từ máy chủ");
 
         jLabel8.setFont(new java.awt.Font("Times New Roman", 1, 12)); // NOI18N
-        jLabel8.setText("Nhập đường dẫn file:");
+        jLabel8.setText("Chọn đường dẫn file:");
 
         txt_filePath.setFont(new java.awt.Font("Times New Roman", 1, 12)); // NOI18N
 
